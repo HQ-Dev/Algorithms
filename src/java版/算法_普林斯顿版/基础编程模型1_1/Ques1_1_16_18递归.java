@@ -6,7 +6,7 @@ package java版.算法_普林斯顿版.基础编程模型1_1;
   * @author i码士技术部-huang
   * @date 2017年04月07日 下午07:21:40
  */
-public class Ques1_1_16_递归 {
+public class Ques1_1_16_18递归 {
 
     public static void main(String[] args) {
 //        exR1(6);
@@ -34,5 +34,6 @@ public class Ques1_1_16_递归 {
         if (b % 2 == 0) return mystery(a+a, b/2);
         return mystery(a+a, b/2) + a;
     }
+    
 
 }
